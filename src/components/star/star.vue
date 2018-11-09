@@ -23,7 +23,7 @@
     },
     computed: {
       starType() {
-        return 'star-' + '48'
+        return 'star-' + this.size
       },
       itemClasses() {
         let result = []
